@@ -1,0 +1,29 @@
+{
+  "name": "cortex-search-utils",
+  "description": "utils model for cortex search",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "couch-db": "~1.0.0",
+    "async": "^0.7.0"
+  },
+  "engines": {
+    "node": ">=0.11.12"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "supertest": "^0.11.0",
+    "chai": "^1.9.1"
+  },
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/villadora/cortex-search-utils.git"
+  },
+  "keywords": [
+    "cortex",
+    "search",
+    "utils"
+  ],
+  "license": "BSD"
+}
