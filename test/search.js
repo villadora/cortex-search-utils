@@ -29,10 +29,11 @@ describe('search.js', function() {
         });
     });
 
-    it.skip('searchByWord', function(done) {
-        search.searchByWord('cortex', {
+    it('searchByWord', function(done) {
+        search.searchByWord('app', {
             limit: 40
         }, function(err, rows) {
+console.log(err, rows);
             assert(rows && rows.length);
             done(err);
         });
