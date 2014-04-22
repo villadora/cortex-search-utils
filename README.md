@@ -15,6 +15,11 @@ npm install cortex-search-utils --save
 var search = require('cortex-search-utils')(url, options);
 // or
 var search = require('cortex-search-utils')(couch); // couch is a CouchDB instance
+
+search.searchByWord(['app', 'data'], function(err, rows) {
+    // handle results
+});
+
 ```
 
 ## APIs
