@@ -6,7 +6,10 @@ describe('search.js', function() {
     this.timeout(40000);
 
     it('searchAll', function(done) {
-        search.searchAll({keyword: 'cortex', name: 'backbone'}, function(err, rows) {
+        search.searchAll({
+            keyword: 'cortex',
+            name: 'backbone'
+        }, function(err, rows) {
             assert(rows && rows.length);
             done(err);
         });

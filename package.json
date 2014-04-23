@@ -1,11 +1,12 @@
 {
   "name": "cortex-search-utils",
   "description": "utils model for cortex search",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./lib/index.js",
   "dependencies": {
     "couch-db": "~1.0.0",
-    "async": "^0.7.0"
+    "async": "^0.7.0",
+    "underscore": "^1.6.0"
   },
   "engines": {
     "node": ">=0.11.12"
