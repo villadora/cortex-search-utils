@@ -1,6 +1,6 @@
 var assert = require('chai').assert;
 
-var search = require('../lib')(require('couch-db')('http://couch.cortex.dp'));
+var search = require('../lib')('http://registry.cortex.dp');
 
 describe('search.js', function() {
     this.timeout(40000);
