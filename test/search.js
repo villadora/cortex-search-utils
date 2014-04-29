@@ -8,7 +8,7 @@ describe('search.js', function() {
     it('searchAll', function(done) {
         search.searchAll({
             keyword: 'cortex',
-            name: 'backbone'
+            name: 'cortex'
         }, function(err, rows) {
             assert(rows && rows.length);
             done(err);
@@ -41,7 +41,7 @@ describe('search.js', function() {
     });
 
     it('searchByWord', function(done) {
-        search.searchByWord('app', {
+        search.searchByWord('angularjs', {
             limit: 40
         }, function(err, rows) {
             assert(rows && rows.length);
