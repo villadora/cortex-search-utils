@@ -1,7 +1,7 @@
 {
   "name": "cortex-search-utils",
   "description": "utils model for cortex search",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "main": "./lib/index.js",
   "scripts": {
       "test": "./node_modules/.bin/mocha -R spec test"
