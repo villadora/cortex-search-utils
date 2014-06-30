@@ -1,18 +1,18 @@
 {
   "name": "cortex-search-utils",
   "description": "utils model for cortex search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./lib/index.js",
   "scripts": {
       "test": "./node_modules/.bin/mocha -R spec test"
   },
   "dependencies": {
-    "couch-db": "~1.0.6",
+    "couch-db": "^1.0.6",
     "async": "^0.7.0",
     "underscore": "^1.6.0"
   },
   "engines": {
-    "node": ">=0.11.12"
+    "node": ">=0.10.0"
   },
   "devDependencies": {
     "mocha": "^1.18.2",
